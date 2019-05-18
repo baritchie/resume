@@ -38,7 +38,7 @@ fields:
     config:
       min: '0'
       max: '1'
-      step: '0.1'
+      step: ".05"
   - name: actions
     type: field_group
     config: {}
