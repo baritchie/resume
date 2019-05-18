@@ -8,7 +8,7 @@ toc_label: Table of Contents
 title: Test Post
 header:
   overlay_color: "#FE7F7F"
-  overlay_filter: 0.5
+  overlay_filter: ".5"
   actions:
     label: ''
     url: ''
