@@ -1,4 +1,41 @@
 ---
 label: Blog post
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: Title of Page
+- name: categories
+  type: tag_list
+  default: []
+  label: Categories
+  description: Categories for Post
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+  description: Post Tags
+- name: header
+  type: field_group
+  config: {}
+  fields:
+  - name: teaser
+    type: text
+    config:
+      required: false
+    label: Teaser
+    description: Teaser URL
+  label: Header
+  description: Header Customization
+- name: last_modified_at
+  type: datetime
+  label: Last Modified At
+  description: Date Last Modified
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
