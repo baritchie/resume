@@ -22,14 +22,61 @@ fields:
   type: field_group
   config: {}
   fields:
-  - name: teaser
+  - name: overlay_color
+    type: color
+    label: Overlay Color
+    config:
+      required: false
+      color_format: Hex
+    description: Overlay Color
+  - name: overlay_filter
+    type: number
+    label: Overlay Filter
+    description: Overlay Filter
+    default: 0
+    required: true
+    config:
+      min: '0'
+      max: '1'
+      step: '0.1'
+  - name: actions
+    type: field_group
+    config: {}
+    fields:
+    - name: label
+      type: text
+      config:
+        required: false
+      label: Label
+      description: Call to Action Label
+    - name: url
+      type: text
+      config:
+        required: false
+      label: URL
+      description: Call to Action Button URL
+    label: Actions
+    description: Call to Action
+  - name: caption
     type: text
     config:
       required: false
-    label: Teaser
-    description: Teaser URL
+    label: Caption
+    description: Header Caption
   label: Header
   description: Header Customization
+- name: toc
+  type: text
+  config:
+    required: false
+  label: TOC
+  description: Table of Contents Inclusion
+- name: toc_label
+  type: text
+  config:
+    required: false
+  label: TOC Label
+  description: Table of Contents Title Label
 - name: last_modified_at
   type: datetime
   label: Last Modified At
