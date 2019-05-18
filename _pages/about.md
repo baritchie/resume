@@ -3,6 +3,6 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+My name is Benjamin Ritchie, and I am a Computer Science student at Humboldt State University. I have a background mostly in WordPress and Jekyll/Liquid development. Currently, I am still learning SEO strategy and solidifying my understanding of JavaScript with more formal training. While I'm not an expert in anything, I try to learn as much as I can. 
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+I hope you can find some useful information on here. There's some weird things I've come across that I want to document a little bit, and just writing a little bit about WordPress and Jekyll and how we can all find harmony is important to me.
