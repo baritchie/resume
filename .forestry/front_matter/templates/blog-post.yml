@@ -7,7 +7,7 @@ fields:
   config:
     required: false
   label: Title
-  description: Title of Page
+  description: Title of Post
 - name: categories
   type: tag_list
   default: []
@@ -71,12 +71,14 @@ fields:
     required: false
   label: TOC
   description: Table of Contents Inclusion
+  default: 'true'
 - name: toc_label
   type: text
   config:
     required: false
   label: TOC Label
   description: Table of Contents Title Label
+  default: Table of Contents
 - name: last_modified_at
   type: datetime
   label: Last Modified At
