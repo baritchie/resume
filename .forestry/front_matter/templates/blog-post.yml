@@ -90,4 +90,4 @@ fields:
     display_utc: false
   default: now
 pages:
-- _posts/test-post.md
+- _posts/2019-05-18-test-post.md
