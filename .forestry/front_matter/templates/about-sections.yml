@@ -1,0 +1,61 @@
+---
+label: About Sections
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: permalink
+  label: permalink
+- type: text
+  name: layout
+  label: layout
+- type: field_group
+  name: header
+  label: header
+  fields:
+  - type: text
+    name: overlay_color
+    label: overlay_color
+- type: field_group_list
+  name: feature_row
+  label: feature_row
+  fields:
+  - type: file
+    name: image_path
+    label: image_path
+  - type: text
+    name: alt
+    label: alt
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: excerpt
+    label: excerpt
+- type: field_group_list
+  name: feature_row2
+  label: feature_row2
+  fields:
+  - type: file
+    name: image_path
+    label: image_path
+  - type: text
+    name: alt
+    label: alt
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: excerpt
+    label: excerpt
+  - type: text
+    name: url
+    label: url
+  - type: text
+    name: btn_label
+    label: btn_label
+  - type: text
+    name: btn_class
+    label: btn_class
