@@ -34,22 +34,6 @@ fields:
   - type: textarea
     name: excerpt
     label: excerpt
-- type: field_group_list
-  name: feature_row2
-  label: feature_row2
-  fields:
-  - type: file
-    name: image_path
-    label: image_path
-  - type: text
-    name: alt
-    label: alt
-  - type: text
-    name: title
-    label: title
-  - type: textarea
-    name: excerpt
-    label: excerpt
   - type: text
     name: url
     label: url
